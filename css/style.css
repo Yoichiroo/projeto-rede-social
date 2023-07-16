@@ -211,3 +211,20 @@ main .container .sectionEsquerda .perfil {
     position: absolute;
     background-color: var(--corPrimaria);
 }
+
+.sectionEsquerda .sidebar .itemMenu:first-child.itemAtivo {
+    border-top-left-radius: var(--cardBorderRadius);
+    overflow: hidden;
+}
+
+.sectionEsquerda .sidebar .itemMenu:last-child.itemAtivo {
+    border-bottom-left-radius: var(--cardBorderRadius);
+    overflow: hidden;
+}
+
+.sectionEsquerda .btn {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
