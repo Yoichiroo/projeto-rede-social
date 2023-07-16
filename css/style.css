@@ -190,4 +190,15 @@ main .container .sectionEsquerda .perfil {
     right: -0.3rem;
 }
 
-.sectionEsquerda
+.sectionEsquerda .sidebar h3 {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.sectionEsquerda .sidebar .itemAtivo {
+    background-color: var(--corSecundaria);
+}
+
+.sectionEsquerda .sidebar .itemAtivo i, .sectionEsquerda .sidebar .itemAtivo h3 {
+    color: var(--corPrimaria);
+}
