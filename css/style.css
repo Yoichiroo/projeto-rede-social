@@ -34,6 +34,8 @@
     --paddingBtn: 0.6rem 2rem;
     --paddingSearch: 0.6rem 1rem;
     --cardPadding: 1rem;
+    --stickyEsquerdaCima: 5.4rem;
+    --stickyDireitaCima: -18rem;
 }
 
 body {
@@ -120,4 +122,47 @@ nav .criar {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+main {
+    position: relative;
+    top: 5.4rem;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: 18vh auto 20vw;
+    column-gap: 2rem;
+    position: relative;
+}
+
+main .container .sectionEsquerda {
+    height: max-content;
+    position: sticky;
+    top: var(--stickyEsquerdaCima);
+}
+
+main .container .sectionEsquerda .perfil {
+    padding: var(--cardPadding);
+    background-color: var(--cor01);
+    border-radius: var(--bRadius);
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+.sectionEsquerda .sidebar {
+    margin-top: 1rem;
+    background-color: var(--cor01);
+    border-radius: var(--cardBorderRadius);
+}
+
+.sectionEsquerda .sidebar .itemMenu {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    cursor: pointer;
+    transititon: all .3s ease;
+    position: inherit;
 }
