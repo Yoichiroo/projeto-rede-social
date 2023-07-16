@@ -12,6 +12,7 @@
 }
 
 :root {
+    /* CORES */
     --cor01: #fff;
     --cor02: #000;
     --corEscura: #241e38;
@@ -21,9 +22,44 @@
     --corSucesso: #51fb51;
     --corAlerta: #fb5151;
     --corPreta: #151221;
+
+    /* ESPAÇAMENTO, ALINHAMENTO E ETC */
+
+    --bRadius: 2rem;
+    --cardBorderRadius: 1rem;
+    --paddingBtn: 0.6rem 2rem;
+    --paddingSearch: 0.6rem 1rem;
+    --cardPadding: 1rem;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--corEscura);
+    background-color: var(--corSecundaria);
+    overflow-x: hidden;
 }
+
+/* Estilizações gerais */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imgPerfil {
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: var();
+}
+
