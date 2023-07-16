@@ -100,5 +100,25 @@ nav .container {
 
 nav .search {
     background-color: var(--corSecundaria);
-    border
+    border-radius: var(--bRadius);
+    padding: var(--cardPadding);
+}
+
+nav .search input[type=search] {
+    background: transparent;
+    width: 30vw;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--cor02);
+}
+
+nav .search input[type=search]::placeholder {
+    color: var(--corCinza);
+}
+
+nav .criar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
 }
