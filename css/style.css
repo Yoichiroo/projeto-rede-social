@@ -12,13 +12,17 @@
 }
 
 :root {
-    /* CORES */
+    /* CORES PRETO E BRANCO*/
     --cor01: #fff;
     --cor02: #000;
+
+    /* CORES PRINCIPAIS */
     --corEscura: #241e38;
     --corPrimaria: #6b4ce6;
     --corSecundaria: #d6ccff;
-
+    --corCinza: #9e98b3;
+    
+    /* CORES TERCIÁRIAS */
     --corSucesso: #51fb51;
     --corAlerta: #fb5151;
     --corPreta: #151221;
@@ -68,11 +72,33 @@ img {
     font-size: 0.9rem;
 }
 
-.btn:hover {
-    opacity: 0.8;
-}
+.btn:hover { opacity: 0.8; }
 
 .btnPrimario {
     background-color: var(--corPrimaria);
     color: var(--cor01);
+}
+
+.textoNegrito { font-weight: 500; }
+
+.textoMudado { color: var(--corCinza); }
+
+nav {
+    width: 100%;
+    background-color: var(--cor01);
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .search {
+    background-color: var(--corSecundaria);
+    border
 }
