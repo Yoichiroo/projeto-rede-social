@@ -60,6 +60,19 @@ img {
 
 .btn {
     display: inline-block;
-    padding: var();
+    padding: var(--paddingBtn);
+    font-weight: 500;
+    border-radius: var(--bRadius);
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 0.9rem;
 }
 
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btnPrimario {
+    background-color: var(--corPrimaria);
+    color: var(--cor01);
+}
