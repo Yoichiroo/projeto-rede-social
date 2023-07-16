@@ -131,7 +131,7 @@ main {
 
 main .container {
     display: grid;
-    grid-template-columns: 18vh auto 20vw;
+    grid-template-columns: 18vw auto 20vw;
     column-gap: 2rem;
     position: relative;
 }
@@ -163,6 +163,31 @@ main .container .sectionEsquerda .perfil {
     align-items: center;
     height: 4rem;
     cursor: pointer;
-    transititon: all .3s ease;
-    position: inherit;
+    transition: all .3s ease;
+    position: relative;
 }
+
+.sectionEsquerda .sidebar .itemMenu:hover {
+    background-color: var(--corSecundaria);
+}
+
+.sectionEsquerda .sidebar i {
+    font-size: 1.4rem;
+    color: var(--corCinza);
+    margin-left: 2rem;
+    position: relative;
+}
+
+.sectionEsquerda .sidebar i .contagemNotificacoes {
+    background-color: var(--corAlerta);
+    color: var(--cor01);
+    font-size: 0.7rem;
+    width: fit-content;
+    border-radius: 0.8rem;
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    top: -0.2rem;
+    right: -0.3rem;
+}
+
+.sectionEsquerda
