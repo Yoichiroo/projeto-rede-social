@@ -270,6 +270,16 @@ main .container .sectionEsquerda .perfil {
     gap: 0.5rem;
 }
 
+.sectionMeio .stories .story::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.747));
+}
+
 .sectionMeio .stories .story {
     padding: var(--cardPadding);
     border-radius: var(--cardBorderRadius);
@@ -282,6 +292,10 @@ main .container .sectionEsquerda .perfil {
     width: 100%;
     position: relative;
     overflow: hidden;
+}
+
+.sectionMeio .stories .story .nomePerfil {
+    z-index: 2;
 }
 
 .sectionMeio .stories .story:nth-child(1) {
@@ -324,4 +338,11 @@ main .container .sectionEsquerda .perfil {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.sectionMeio .stories .story .imgPerfil {
+    width: 2rem;
+    height: 2rem;
+    align-self: start;
+    border: 2px solid var(--corPrimaria);
 }
