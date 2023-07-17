@@ -239,6 +239,7 @@ main .container .sectionEsquerda .perfil {
     padding: var(--cardPadding);
     box-shadow: 0 0 2rem hsl(var(--corPrimaria), 75%, 65%);
     z-index: 8;
+    display: none;
 }
 
 .sectionEsquerda .notificacoesPopup::before {
@@ -260,6 +261,5 @@ main .container .sectionEsquerda .perfil {
     margin-bottom: 1rem;
 }
 
-.sectionEsquerda .notificacoesPopup > div small {
-    display: block
-}
+.sectionEsquerda .notificacoesPopup > div small { display: block; }
+
