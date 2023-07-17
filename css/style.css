@@ -366,3 +366,28 @@ main .container .sectionEsquerda .perfil {
     color: var(--corEscura);
     margin-right: 1rem;
 }
+
+.sectionMeio .divFeeds .divFeed {
+    background-color: var(--cor01);
+    border-radius: var(--cardBorderRadius);
+    padding: var(--cardPadding);
+    margin: 1rem 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.sectionMeio .divFeeds .divFeed .cabeca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionMeio .divFeeds .divFeed .usuario {
+    display: flex;
+    gap: 1rem;
+}
+
+.sectionMeio .divFeeds .divFeed .publicacaoFoto {
+    border-radius: var(--cardBorderRadius);
+    overflow: hidden;
+    margin: 0.7em 0;
+}
