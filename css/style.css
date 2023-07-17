@@ -228,3 +228,15 @@ main .container .sectionEsquerda .perfil {
     text-align: center;
     padding: 1rem 0;
 }
+
+.sectionEsquerda .notificacoesPopup {
+    position: absolute;
+    top: 0;
+    left: 110%;
+    width: 30rem;
+    background-color: var(--cor01);
+    border-radius: var(--cardBorderRadius);
+    padding: var(--cardPadding);
+    box-shadow: 0 0 2rem hsl(var(--corPrimaria), 75%, 65%);
+    z-index: 8;
+}
