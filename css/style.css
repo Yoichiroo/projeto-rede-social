@@ -240,3 +240,26 @@ main .container .sectionEsquerda .perfil {
     box-shadow: 0 0 2rem hsl(var(--corPrimaria), 75%, 65%);
     z-index: 8;
 }
+
+.sectionEsquerda .notificacoesPopup::before {
+    content: '';
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    background: var(--cor01);
+    position: absolute;
+    left: -0.6rem;
+    transform: rotate(45deg);
+}
+
+.sectionEsquerda .notificacoesPopup > div {
+    display: flex;
+    height: fit-content;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sectionEsquerda .notificacoesPopup > div small {
+    display: block
+}
