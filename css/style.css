@@ -346,3 +346,23 @@ main .container .sectionEsquerda .perfil {
     align-self: start;
     border: 2px solid var(--corPrimaria);
 }
+
+.sectionMeio .formCriarPost {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background: var(--cor01);
+    padding: 0.5rem var(--cardPadding);
+    border-radius: var(--bRadius);
+}
+
+.sectionMeio .formCriarPost input[type=text]{
+    justify-self: start;
+    width: 100%;
+    padding-left: 1rem;
+    background-color: transparent;
+    color: var(--corEscura);
+    margin-right: 1rem;
+}
