@@ -17,10 +17,10 @@
     --cor02: #000;
 
     /* CORES PRINCIPAIS */
-    --corEscura: #241e38;
-    --corPrimaria: #6b4ce6;
+    --corEscura: #1a1041;
+    --corPrimaria: #2f3acc;
     --corSecundaria: #d6ccff;
-    --corCinza: #9e98b3;
+    --corCinza: #948dad;
     
     /* CORES TERCIÁRIAS */
     --corSucesso: #51fb51;
@@ -263,3 +263,30 @@ main .container .sectionEsquerda .perfil {
 
 .sectionEsquerda .notificacoesPopup > div small { display: block; }
 
+.sectionMeio .stories {
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    gap: 0.5rem;
+}
+
+.sectionMeio .stories .story {
+    padding: var(--cardPadding);
+    border-radius: var(--cardBorderRadius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor01);
+    font-size: 0.75rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sectionMeio .stories .story:nth-child(1) {
+    background-image: url("../img/story-6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
