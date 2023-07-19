@@ -417,3 +417,31 @@ main .container .sectionEsquerda .perfil {
 .sectionMeio .curtidoPor span:nth-child(1) { margin: 0; }
 
 .sectionMeio .curtidoPor p{ margin-left: 0.2rem; }
+
+main .container .sectionDireita {
+    height: max-content;
+    position: sticky;
+    top: var(--stickyDireitaCima);
+    bottom: 0;
+}
+
+.sectionDireita .sectionMensagens {
+    background-color: var(--cor01);
+    border-radius: var(--cardBorderRadius);
+    padding: var(--cardPadding);
+}
+
+.sectionDireita .sectionMensagens .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.sectionDireita .sectionMensagens .search {
+    display: flex;
+    background-color: var(--cor01);
+    margin-bottom: 1rem;
+    
+}
