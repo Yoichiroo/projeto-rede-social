@@ -478,9 +478,7 @@ main .container .sectionDireita {
     overflow: visible;
 }
 
-.sectionDireita .sectionMensagens .mensagem .imgPerfil img { 
-    border-radius: 50%;
-}
+.sectionDireita .sectionMensagens .mensagem .imgPerfil img { border-radius: 50%; }
 
 .sectionDireita .sectionMensagens .mensagem .imgPerfil .online {
     width: 0.8rem;
@@ -491,4 +489,31 @@ main .container .sectionDireita {
     background-color: var(--corSucesso);
     bottom: 0;
     right: 0;
+}
+
+.solicitacoesMensagem { color: var(--corPrimaria); }
+
+.sectionDireita .pedidosAmizade { margin-top: 1rem; }
+
+.sectionDireita .pedidosAmizade h4 {
+    color: var(--corCinza);
+    margin: 1rem 0;
+}
+
+.sectionDireita .pedidosAmizade .pedido {
+    background-color: var(--cor01);
+    padding: var(--cardPadding);
+    border-radius: var(--cardBorderRadius);
+    margin-bottom: 0.7rem;
+}
+
+.sectionDireita .pedidosAmizade .pedido .infoPerfil {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sectionDireita .pedidosAmizade .pedido .btnAcao {
+    display: flex;
+    gap: 1rem;
 }
