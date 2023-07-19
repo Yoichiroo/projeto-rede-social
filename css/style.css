@@ -530,7 +530,7 @@ main .container .sectionDireita {
     left: 0;
     z-index: 100;
     font-size: 0.9rem;
-    /* display: none; */
+    display: none;
 }
 
 .customizacaoTema .card {
