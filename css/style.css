@@ -20,7 +20,7 @@
     --corEscura: #1a1041;
     --corPrimaria: #404ad4;
     --corSecundaria: #d6ccff;
-    --corCinza: #948dad;
+    --corCinza: #b1b1b1;
     
     /* CORES TERCIÁRIAS */
     --corSucesso: #51fb51;
@@ -519,6 +519,9 @@ main .container .sectionDireita {
 }
 
 .customizacaoTema {
+        text-align: center;
+        display: grid;
+        place-content: center;
     background-color: rgba(255, 255, 255, 0.5);
     width: 100vw;
     height: 100vh;
@@ -526,11 +529,47 @@ main .container .sectionDireita {
     top: 0;
     left: 0;
     z-index: 100;
-    text-align: center;
-    display: grid;
-    place-content: center;
+    font-size: 0.9rem;
 }
 
 .customizacaoTema .card {
-    
+    background-color: var(--cor01);
+    padding: 3rem;
+    width: 100%;
+    border-radius: var(--cardBorderRadius);
+}
+
+.customizacaoTema .tamanhoFonte {
+    margin-top: 5rem;
+}
+
+.customizacaoTema .tamanhoFonte > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--corSecundaria);
+    padding: var(--paddingSearch);
+    border-radius: var(--cardBorderRadius);
+}
+
+.customizacaoTema .tamanhoFonte .escolherTamanho {
+    background-color: var(--corCinza);
+    height: 0.3rem;
+    width: 100%;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customizacaoTema .tamanhoFonte .escolherTamanho span {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--corCinza);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.customizacaoTema .tamanhoFonte .escolherTamanho .ativo {
+    background-color: var(--corPrimaria);
 }
