@@ -496,7 +496,7 @@ main .container .sectionDireita {
 .sectionDireita .pedidosAmizade { margin-top: 1rem; }
 
 .sectionDireita .pedidosAmizade h4 {
-    color: var(--corCinza);
+    color: var(--corEscura);
     margin: 1rem 0;
 }
 
