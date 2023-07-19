@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Laptops e tablets */
+@media screen and (max-width:1200px) {
+    .container {
+        width: 96%;
+    }
+
+    main .container {
+        grid-template-columns: 5rem auto 30vw;
+        gap: 1rem;
+    }
+
+    .sectionEsquerda {
+        width: 5rem;
+        z-index: 5;
+    }
+
+    main .container .sectionEsquerda .perfil {
+        display: none;
+    }
+
+    .sidebar h3 {
+        display: none;
+    }
+
+    .sectionEsquerda .btn {
+        display: none;
+    }
+}
