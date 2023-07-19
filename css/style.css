@@ -81,7 +81,7 @@ img {
     color: var(--cor01);
 }
 
-.textoNegrito { font-weight: 500; }
+.textoNegrito { font-weight: 600; }
 
 .textoMudado { color: var(--corCinza); }
 
@@ -460,4 +460,35 @@ main .container .sectionDireita {
 
 .sectionDireita .sectionMensagens .categoria .ativo {
     border-color: var(--corPrimaria);
+}
+
+.sectionDireita .sectionMensagens .mensagem {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.sectionDireita .sectionMensagens .mensagem:last-child { margin: 0; }
+
+.sectionDireita .sectionMensagens .mensagem p { font-size: 0.8rem; }
+
+.sectionDireita .sectionMensagens .mensagem .imgPerfil { 
+    position: relative; 
+    overflow: visible;
+}
+
+.sectionDireita .sectionMensagens .mensagem .imgPerfil img { 
+    border-radius: 50%;
+}
+
+.sectionDireita .sectionMensagens .mensagem .imgPerfil .online {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid var(--cor01);
+    position: absolute;
+    background-color: var(--corSucesso);
+    bottom: 0;
+    right: 0;
 }
