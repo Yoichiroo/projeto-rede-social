@@ -530,7 +530,7 @@ main .container .sectionDireita {
     left: 0;
     z-index: 100;
     font-size: 0.9rem;
-    display: none;
+    /* display: none; */
 }
 
 .customizacaoTema .card {
@@ -607,3 +607,53 @@ main .container .sectionDireita {
 .customizacaoTema .selecionarCor span:nth-child(4) { background-color: #4de59e; }
 
 .customizacaoTema .selecionarCor span:nth-child(5) { background-color: #4cade6; }
+
+.customizacaoTema .selecionarCor span.ativo { border: 3px solid var(--cor01); }
+
+.customizacaoTema .corFundo { margin-top: 2rem; }
+
+.customizacaoTema .selecionarCorFundo {
+    display: flex;
+    margin-top: 0.7rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.customizacaoTema .selecionarCorFundo > div {
+    padding: var(--cardPadding);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.customizacaoTema .selecionarCorFundo > div.ativo {
+    border: 2px solid var(--corPrimaria);
+}
+
+.customizacaoTema .selecionarCorFundo .fundo1 {
+    background-color: var(--cor01);
+    color: var(--cor02);
+}
+
+.customizacaoTema .selecionarCorFundo .fundo2 {
+    background-color: hsl(252, 30%, 17%);
+    color: var(--cor01);
+}
+
+.customizacaoTema .selecionarCorFundo .fundo3 {
+    background-color: hsl(252, 30%, 10%);
+    color: var(--cor01);
+}
+
+.customizacaoTema .selecionarCorFundo > div span {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--corCinza);
+    border-radius: 50%;
+    margin-right: 1rem;
+}
