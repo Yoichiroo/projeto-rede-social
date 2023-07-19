@@ -519,9 +519,9 @@ main .container .sectionDireita {
 }
 
 .customizacaoTema {
-        text-align: center;
-        display: grid;
-        place-content: center;
+    text-align: center;
+    display: grid;
+    place-content: center;
     background-color: rgba(255, 255, 255, 0.5);
     width: 100vw;
     height: 100vh;
@@ -530,17 +530,22 @@ main .container .sectionDireita {
     left: 0;
     z-index: 100;
     font-size: 0.9rem;
+    display: none;
 }
 
 .customizacaoTema .card {
     background-color: var(--cor01);
     padding: 3rem;
-    width: 100%;
+    width: 38rem;
     border-radius: var(--cardBorderRadius);
 }
 
 .customizacaoTema .tamanhoFonte {
     margin-top: 5rem;
+}
+
+.customizacaoTema h2 {
+    margin-bottom: 1rem;
 }
 
 .customizacaoTema .tamanhoFonte > div {
@@ -573,3 +578,32 @@ main .container .sectionDireita {
 .customizacaoTema .tamanhoFonte .escolherTamanho .ativo {
     background-color: var(--corPrimaria);
 }
+
+.customizacaoTema .cor {
+    margin-top: 2rem;
+}
+
+.customizacaoTema .selecionarCor {
+    background-color: var(--corSecundaria);
+    padding: var(--paddingSearch);
+    border-radius: var(--cardBorderRadius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customizacaoTema .selecionarCor span {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+}
+
+.customizacaoTema .selecionarCor span:nth-child(1) {background-color: var(--corPrimaria); }
+
+.customizacaoTema .selecionarCor span:nth-child(2) { background-color: #e5d14d; }
+
+.customizacaoTema .selecionarCor span:nth-child(3) { background-color: #e64c61; }
+
+.customizacaoTema .selecionarCor span:nth-child(4) { background-color: #4de59e; }
+
+.customizacaoTema .selecionarCor span:nth-child(5) { background-color: #4cade6; }
