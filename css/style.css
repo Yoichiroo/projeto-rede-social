@@ -100,13 +100,13 @@ nav .container {
     justify-content: space-between;
 }
 
-nav .search {
+.search {
     background-color: var(--corSecundaria);
     border-radius: var(--bRadius);
     padding: var(--cardPadding);
 }
 
-nav .search input[type=search] {
+.search input[type=search], input[type=text] {
     background: transparent;
     width: 30vw;
     margin-left: 1rem;
@@ -436,12 +436,28 @@ main .container .sectionDireita {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .sectionDireita .sectionMensagens .search {
     display: flex;
-    background-color: var(--cor01);
     margin-bottom: 1rem;
-    
+}
+
+.sectionDireita .sectionMensagens .categoria {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.sectionDireita .sectionMensagens .categoria h6 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid var(--corSecundaria);
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.sectionDireita .sectionMensagens .categoria .ativo {
+    border-color: var(--corPrimaria);
 }
