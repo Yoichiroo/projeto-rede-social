@@ -517,3 +517,20 @@ main .container .sectionDireita {
     display: flex;
     gap: 1rem;
 }
+
+.customizacaoTema {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.customizacaoTema .card {
+    
+}
