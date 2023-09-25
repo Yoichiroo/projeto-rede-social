@@ -52,3 +52,6 @@ let procurar_mensagem = () => {
 }
 
 search_box_mensagem.addEventListener("keyup", procurar_mensagem)
+
+// Personalização do tema
+
