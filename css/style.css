@@ -429,6 +429,7 @@ main .container .sectionDireita {
     background-color: var(--cor01);
     border-radius: var(--cardBorderRadius);
     padding: var(--cardPadding);
+    transition: .5s;
 }
 
 .sectionDireita .sectionMensagens .header {
